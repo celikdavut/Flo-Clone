@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.flo.com.tr/">
+    <title>Flo | Online Ayakkabı ve Giyim Alışverişi İçin Tıklayın!</title>
+    <meta name="description" content="Türkiye'nin en büyük online ayakkabı mağazası FLO'da yeni sezon ayakkabı modelleri uygun fiyatlar ve kapıda ödeme fırsatıyla sizi bekliyor.">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.flo.com.tr/pub/assets/flo-v2/images/flo-logo.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="anasayfa.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-6"><p>Mobil uygulamayı <a href="" class="txtUnderline"><strong>Hemen İndir</strong></a></p></div>
+                    <div class="col-6">
+                        <ul class="d-flex flex-row justify-content-end align-items-center gap-2">
+                            <li><a href="">Sipariş Takibi</a></li>
+                            <li>|</li>
+                            <li><a href="">Kolay İade</a></li>
+                            <li>|</li>
+                            <li><a href="">Yardım</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_inner py-3">
+            <div class="container">
+                <div class="header-inner d-flex align-items-center">
+                    <div class="header-inner-left  d-flex gap-5 align-items-center">
+                        <div class="nav_col header_logo">
+                            <a href=""><img src="https://www.flo.com.tr/pub/assets/flo-v2/images/flo-logo.svg" alt=""></a>
+                        </div>
+                        <div class="nav_col navGender">
+                            <a href="" class="menu_link"><span>Kadın</span></a>
+                            <a href="" class="menu_link"><span>Erkek</span></a>
+                            <a href="" class="menu_link"><span>Çocuk</span></a>
+                        </div>
+                        <div class="nav_col">
+                            <div class="search-container d-flex position-relative">
+                                <button  class="searchButton" id="searchButton1">
+                                    <i class="fa-solid fa-magnifying-glass fa-lg" style="color:#d9d9d9;"></i>
+                                </button>
+                                <input class="searchInput ps-3" id="searchInput1" type="input" value="" placeholder="Aradığınız ürün, marka veya kategoriyi yazınız" autocomplete="off">
+                                <div class="inputDropdown p-4">
+                                    <div class="popularSearches">
+                                        <p>Popüler Aramalar</p>
+                                        <div class="searchesBody ">
+                                            <a href="" class="btn  bg-white">Bot</a>
+                                            <a href="" class="btn  bg-white">Adidas</a>
+                                            <a href="" class="btn  bg-white">Nike</a>
+                                            <a href="" class="btn  bg-white">Mont</a>
+                                            <a href="" class="btn  bg-white">İnci</a>
+                                            <a href="" class="btn  bg-white">Sneaker</a>
+                                            <a href="" class="btn  bg-white">Reebok</a>
+                                            <a href="" class="btn  bg-white">Çizme</a>
+                                            <a href="" class="btn  bg-white">Outdoor</a>
+                                            <a href="" class="btn  bg-white">Çanta</a>
+                                        </div>
+                                    </div>
+                                    <div class="trendingSection mt-3">
+                                        <p>Popüler Ürünler</p>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-03/22/delta-flame-27-inc-tek-parca-l2-grip-kort-tenis-raketi-3-adet-tenis-mac-topu-13676.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>Delta</strong></p>
+                                                <p>Delta Flame 27 İnç Tek Parça L2 Grip Kort Tenis Raketi 3 Adet Tenis Maç Topu</p>
+                                                <span>999.10 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-07/25/200954711-1-1690265208.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>Lufian</strong></p>
+                                                <p>Lufian Erkek Jose Pantolon</p>
+                                                <span>1.999,99 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-05/11/200892676-1-1683788271.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>GRANDE</strong></p>
+                                                <p>GRANDE 2802 SARI DETAYLI KADIN HAKİKİ DERİ CÜZDAN SİYAH</p>
+                                                <span>1.126,25 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-05/18/200899641-1-1684390060.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>Pepino</strong></p>
+                                                <p>Pepino 1213-P Petrol-Fosfor Turuncu Cırtlı Fileli Çocuk Spor Ayakkabı</p>
+                                                <span>583,20 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/22-10/10/alexandergardi-triko-ceket-e22-5700-23913.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>Alexander Gardi</strong></p>
+                                                <p>Alexander Gardi ALEXANDERGARDI TRİKO CEKET (E22-5700)</p>
+                                                <del>399,99 tl</del><span>349,99 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-03/06/national-geographic-orta-boy-valiz-n-2003-51224.jpeg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>National Geographic</strong></p>
+                                                <p>National Geographic Orta Boy Valiz N-2003</p>
+                                                <del>299,99 tl</del><span>1.915,82 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/22-12/08/alexandergardi-v-yaka-triko-salas-kazak-a91861-s-24463.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>Alexander Gardi</strong></p>
+                                                <p>Alexander Gardi ALEXANDERGARDI V YAKA TRİKO SALAŞ KAZAK (A91861-S)</p>
+                                                <del>299,99 tl</del><span>249,99 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-07/26/200955391-1-1690355158.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>Xhan</strong></p>
+                                                <p>Xhan Beyaz Basic Bisiklet Yaka Yırtmaçlı T-Shirt 2YXK1-46096-01</p>
+                                                <span>169,99 TL</span>
+                                            </div>
+                                        </div>
+                                        <div class="sectionBody">
+                                            <div class="imgContainer">
+                                                <img src="https://floimages.mncdn.com/mnpadding/100/150/FFFFFF/media/catalog/product/23-04/12/aspor-beyaz-fusya-pembe-kiz-cocuk-sandalet-589471.jpg" alt="">
+                                            </div>
+                                            <div class="textBody">
+                                                <p><strong>A Spor</strong></p>
+                                                <p>A Spor Aspor Beyaz Fuşya Pembe Kız Çocuk Sandalet</p>
+                                                <span>744,93 TL</span>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-inner-right">
+                        <div class="nav_col">
+                            <ul class="header_nav d-flex gap-4">
+                                <li class="profile position-relative">
+                                    <a href="" class="header_nav-link d-flex flex-column">
+                                        <img src="img/user-icon.png" alt="">
+                                        <span>Giriş Yap</span>
+                                    </a>
+                                    <div class="loginDropdown p-4">
+                                        <button href="" class="loginBtn">Giriş Yap</button>
+                                        <button href="" class="registerBtn">Üye Ol</button>
+                                    </div>
+                                </li>
+                                <li class="basket">
+                                    <a href="" class="header_nav-link  d-flex flex-column">
+                                        <img src="img/shoppping-cart-icon.png" alt="">
+                                        <span>Sepetim</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAV -->
+
+        <nav class="position-relative py-4">
+            <div class="container">
+                <div class="nav_inner d-flex justify-content-between align-items-center">
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Ayakkabı</span>
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-8  position-relative ">
+                                        <h6>Kategoriler</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Ayakkabılar</a>
+                                                <a href="" class="sub-menu-list-item">Yeni Gelenler</a>
+                                                <a href="" class="sub-menu-list-item">Online Özel Ürünler</a>
+                                                <a href="" class="sub-menu-list-item">Sneaker</a>
+                                                <a href="" class="sub-menu-list-item">Günlük Ayakkabı</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Spor Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Koşu Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Yürüyüş Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Rahat Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Loafer</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Topuklu Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Klasik Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Babet</a>
+                                                <a href="" class="sub-menu-list-item">Sandalet</a>
+                                                <a href="" class="sub-menu-list-item">Terlik</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Ev Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Outdoor Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Bot</a>
+                                                <a href="" class="sub-menu-list-item">Çizme</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-box-wrapper pt-2">
+                                            <a href="" class="sub-menu-list-box">Kinetix</a>
+                                            <a href="" class="sub-menu-list-box">Nike</a>
+                                            <a href="" class="sub-menu-list-box">Lumberjack</a>
+                                            <a href="" class="sub-menu-list-box">Adidas</a>
+                                            <a href="" class="sub-menu-list-box">Polaris</a>
+                                            <a href="" class="sub-menu-list-box">Puma</a>
+                                            <a href="" class="sub-menu-list-box">U.S. Polo Assn.</a>
+                                            <a href="" class="sub-menu-list-box">Lotto</a>
+                                            <a href="" class="sub-menu-list-box">Nine West</a>
+                                            <a href="" class="sub-menu-list-box">İnci</a>
+                                            <a href="" class="sub-menu-list-box">Polaris 5 Nokta</a>
+                                            <a href="" class="sub-menu-list-box">Sole Sisters</a>
+                                            <a href="" class="sub-menu-list-box">Tony Black</a>
+                                            <a href="" class="sub-menu-list-box">Ziya</a>
+                                            <a href="" class="sub-menu-list-box">Gezer</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Spor</span> 
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4  position-relative myDiv">
+                                        <h6>Ayakkabı</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Ürünler</a>
+                                                <a href="" class="sub-menu-list-item">Yeni Gelenler</a>
+                                                <a href="" class="sub-menu-list-item">Online Özel Ürünler</a>
+                                                <a href="" class="sub-menu-list-item">Sneaker</a>
+                                                <a href="" class="sub-menu-list-item">Koşu</a>
+                                                <a href="" class="sub-menu-list-item">Outdoor</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Yürüyüş</a>
+                                                <a href="" class="sub-menu-list-item">Bilekli Sneaker</a>
+                                                <a href="" class="sub-menu-list-item">Halı Saha Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Krampon</a>
+                                                <a href="" class="sub-menu-list-item">Basketbol</a>
+                                                <a href="" class="sub-menu-list-item">Fitness</a>
+                                                <a href="" class="sub-menu-list-item">Tenis</a>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                    <div class="col-2  position-relative myDiv">
+                                        <h6>Kategori</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Giyim</a>
+                                                <a href="" class="sub-menu-list-item">Spor Çanta</a>
+                                                <a href="" class="sub-menu-list-item">Spor Malzemeleri</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2  position-relative myDiv">
+                                        <h6>Koleksiyonlar</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Özel Koleksiyonlar</a>
+                                                <a href="" class="sub-menu-list-item">Reebok Stili</a>
+                                                <a href="" class="sub-menu-list-item">adidas Dünyası</a>
+                                                <a href="" class="sub-menu-list-item">Nike Stili</a>
+                                                <a href="" class="sub-menu-list-item">Puma Modelleri</a>
+                                                <a href="" class="sub-menu-list-item">Lumberjack Dünyası</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-box-wrapper pt-2">
+                                            <a href="" class="sub-menu-list-box">Lumberjack</a>
+                                            <a href="" class="sub-menu-list-box">Nike</a>
+                                            <a href="" class="sub-menu-list-box">Reebok</a>
+                                            <a href="" class="sub-menu-list-box">adidas</a>
+                                            <a href="" class="sub-menu-list-box">Kinetix</a>
+                                            <a href="" class="sub-menu-list-box">Puma</a>
+                                            <a href="" class="sub-menu-list-box">Lotto</a>
+                                            <a href="" class="sub-menu-list-box">U.S. Polo Assn.</a>
+                                            <a href="" class="sub-menu-list-box">Converse</a>
+                                            <a href="" class="sub-menu-list-box">Vans</a>
+                                            <a href="" class="sub-menu-list-box">Proshot</a>
+                                            <a href="" class="sub-menu-list-box">Hummel</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Giyim</span>
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4  position-relative ">
+                                        <h6>Kategoriler</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Ayakkabılar</a>
+                                                <a href="" class="sub-menu-list-item">Yeni Gelenler</a>
+                                                <a href="" class="sub-menu-list-item">Online Özel Ürünler</a>
+                                                <a href="" class="sub-menu-list-item">T-Shirt</a>
+                                                <a href="" class="sub-menu-list-item">Sweatshirt</a>
+                                                <a href="" class="sub-menu-list-item">Eşofman</a>
+                                                <a href="" class="sub-menu-list-item">Polar</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Mont</a>
+                                                <a href="" class="sub-menu-list-item">Yağmurluk</a>
+                                                <a href="" class="sub-menu-list-item">Ceket</a>
+                                                <a href="" class="sub-menu-list-item">Sport Bra</a>
+                                                <a href="" class="sub-menu-list-item">Tayt</a>
+                                                <a href="" class="sub-menu-list-item">Yelek</a>
+                                                <a href="" class="sub-menu-list-item">Jean</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Pantolon</a>
+                                                <a href="" class="sub-menu-list-item">Gömlek</a>
+                                                <a href="" class="sub-menu-list-item">Şort</a>
+                                                <a href="" class="sub-menu-list-item">Elbise</a>
+                                                <a href="" class="sub-menu-list-item">Etek</a>
+                                                <a href="" class="sub-menu-list-item">Plaj Giyim</a>
+                                            </div>      
+                                        </div>
+                                    </div>
+                                    <div class="col-2  position-relative ">
+                                        <h6>Koleksiyonlar</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Life Style</a>
+                                                <a href="" class="sub-menu-list-item">Performans</a>
+                                                <a href="" class="sub-menu-list-item">Tayt-Bra</a>
+                                                <a href="" class="sub-menu-list-item">Outdoor</a>
+                                            </div>      
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-box-wrapper pt-2">
+                                            <a href="" class="sub-menu-list-box">Tüm Markalar</a>
+                                            <a href="" class="sub-menu-list-box">Lumberjack</a>
+                                            <a href="" class="sub-menu-list-box">Lotto</a>
+                                            <a href="" class="sub-menu-list-box">Kinetix</a>
+                                            <a href="" class="sub-menu-list-box">Reebok</a>
+                                            <a href="" class="sub-menu-list-box">Nike</a>
+                                            <a href="" class="sub-menu-list-box">adidas.</a>
+                                            <a href="" class="sub-menu-list-box">Puma</a>
+                                            <a href="" class="sub-menu-list-box">New Balance</a>
+                                            <a href="" class="sub-menu-list-box">Kappa</a>
+                                            <a href="" class="sub-menu-list-box">Mavi</a>
+                                            <a href="" class="sub-menu-list-box">Hummel</a>
+                                            <a href="" class="sub-menu-list-box">Slazenger</a>
+                                            <a href="" class="sub-menu-list-box">Penti</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Çanta ve Aksesuar</span>
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4  position-relative ">
+                                        <h6>Çanta</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Çantalar</a>
+                                                <a href="" class="sub-menu-list-item">Yeni Gelenler</a>
+                                                <a href="" class="sub-menu-list-item">Omuz Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Postacı Çantası</a>
+                                                <a href="" class="sub-menu-list-item">El Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Kol Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Bel Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Abiye Çanta</a>
+                                                <a href="" class="sub-menu-list-item">Portföy Çanta</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Sırt Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Spor Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Plaj Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Telefon Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Bilgisayar Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Okul Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Valiz</a>
+                                                <a href="" class="sub-menu-list-item">Cüzdan</a>
+                                                <a href="" class="sub-menu-list-item">Kartlık</a>
+                                            </div>       
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative ">
+                                        <h6>Koleksiyonlar</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Aksesuar</a>
+                                                <a href="" class="sub-menu-list-item">Yeni Gelenler</a>
+                                                <a href="" class="sub-menu-list-item">Çorap</a>
+                                                <a href="" class="sub-menu-list-item">Kemer</a>
+                                                <a href="" class="sub-menu-list-item">Şapka</a>
+                                                <a href="" class="sub-menu-list-item">Şal</a>
+                                                <a href="" class="sub-menu-list-item">Saat</a>
+                                            </div>      
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Spor Malzemeleri</a>
+                                                <a href="" class="sub-menu-list-item">Güneş Gözlüğü</a>
+                                                <a href="" class="sub-menu-list-item">Parfüm</a>
+                                                <a href="" class="sub-menu-list-item">Tabanlık</a>
+                                                <a href="" class="sub-menu-list-item">Okul Aksesuarları</a>
+                                                <a href="" class="sub-menu-list-item">Atkı</a>
+                                                <a href="" class="sub-menu-list-item">Bere</a>
+                                                <a href="" class="sub-menu-list-item">Eldiven</a>
+                                            </div>      
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-box-wrapper pt-2">
+                                            <a href="" class="sub-menu-list-box">Tüm Markalar</a>
+                                            <a href="" class="sub-menu-list-box">Lumberjack</a>
+                                            <a href="" class="sub-menu-list-box">Lotto</a>
+                                            <a href="" class="sub-menu-list-box">Kinetix</a>
+                                            <a href="" class="sub-menu-list-box">Reebok</a>
+                                            <a href="" class="sub-menu-list-box">Nike</a>
+                                            <a href="" class="sub-menu-list-box">adidas</a>
+                                            <a href="" class="sub-menu-list-box">Puma</a>
+                                            <a href="" class="sub-menu-list-box">New Balance</a>
+                                            <a href="" class="sub-menu-list-box">Kappa</a>
+                                            <a href="" class="sub-menu-list-box">Garamond</a>
+                                            <a href="" class="sub-menu-list-box">Hummel</a>
+                                            <a href="" class="sub-menu-list-box">Slazenger</a>
+                                            <a href="" class="sub-menu-list-box">Oxide</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Markalar</span>
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6  position-relative ">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Lumberjack</a>
+                                                <a href="" class="sub-menu-list-item">Kinetix</a>
+                                                <a href="" class="sub-menu-list-item">U.S.Polo Assn</a>
+                                                <a href="" class="sub-menu-list-item">Polaris</a>
+                                                <a href="" class="sub-menu-list-item">Polaris 5 Nokta</a>
+                                                <a href="" class="sub-menu-list-item">Dockers by Gerli</a>
+                                                <a href="" class="sub-menu-list-item">Nine West</a>
+                                                <a href="" class="sub-menu-list-item">İnci</a>
+                                                <a href="" class="sub-menu-list-item">Torex</a>
+                                            </div>
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Nike</a>
+                                                <a href="" class="sub-menu-list-item">Adidas</a>
+                                                <a href="" class="sub-menu-list-item">Puma</a>
+                                                <a href="" class="sub-menu-list-item">Reebok</a>
+                                                <a href="" class="sub-menu-list-item">Lotto</a>
+                                                <a href="" class="sub-menu-list-item">Vans</a>
+                                                <a href="" class="sub-menu-list-item">Converse</a>
+                                                <a href="" class="sub-menu-list-item">Hummel</a>
+                                                <a href="" class="sub-menu-list-item">New Balance</a>
+                                                <a href="" class="sub-menu-list-item">Jack&Jones</a>
+                                            </div>      
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Butigo</a>
+                                                <a href="" class="sub-menu-list-item">Salvano</a>
+                                                <a href="" class="sub-menu-list-item">Binono</a>
+                                                <a href="" class="sub-menu-list-item">Proshot</a>
+                                                <a href="" class="sub-menu-list-item">Crocs</a>
+                                                <a href="" class="sub-menu-list-item">Birkenstock</a>
+                                                <a href="" class="sub-menu-list-item">Mavi</a>
+                                                <a href="" class="sub-menu-list-item">Igor</a>
+                                                <a href="" class="sub-menu-list-item">Slazenger</a>
+                                            </div>      
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Muggo</a>
+                                                <a href="" class="sub-menu-list-item">Civil</a>
+                                                <a href="" class="sub-menu-list-item">Dark Seer</a>
+                                                <a href="" class="sub-menu-list-item">TonnyBlack</a>
+                                                <a href="" class="sub-menu-list-item">Ayakland</a>
+                                                <a href="" class="sub-menu-list-item">Fast Step</a>
+                                                <a href="" class="sub-menu-list-item">Sole Sisters</a>
+                                                <a href="" class="sub-menu-list-item">DS Damat</a>
+                                            </div>      
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Ziya</a>
+                                                <a href="" class="sub-menu-list-item">Benetton</a>
+                                                <a href="" class="sub-menu-list-item">Gezer</a>
+                                                <a href="" class="sub-menu-list-item">Pierre Cardin</a>
+                                                <a href="" class="sub-menu-list-item">Tüm Markalar</a>
+                                            </div>      
+                                        </div>
+                                    </div>                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>İndirim</span>
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-2  position-relative ">
+                                        <h6>Tüm İndirimli Ürünler</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Ayyakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Giyim</a>
+                                                <a href="" class="sub-menu-list-item">Çanta</a>
+                                                <a href="" class="sub-menu-list-item">Aksesuar</a>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative ">
+                                        <h6>Kategoriler</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Sneaker</a>
+                                                <a href="" class="sub-menu-list-item">Spor Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Koşu Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Yürüyüş Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Günlük Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Klasik Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Topuklu Ayakkabı</a>
+                                            </div>      
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Rahat Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Sandalet</a>
+                                                <a href="" class="sub-menu-list-item">Terlik</a>
+                                                <a href="" class="sub-menu-list-item">Babet</a>
+                                                <a href="" class="sub-menu-list-item">Loafer</a>
+                                                <a href="" class="sub-menu-list-item">Outdoor Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Bot</a>
+                                                <a href="" class="sub-menu-list-item">Çizme</a>
+                                            </div>      
+                                        </div>
+                                    </div>
+                                    <div class="col-2 position-relative ">
+                                        <h6>Öne Çıkanlar</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Kuponlu Ürünler</a>
+                                                <a href="" class="sub-menu-list-item">Kargo Bedava Ürünler</a>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-box-wrapper pt-2">
+                                            <a href="" class="sub-menu-list-box">Polaris 5 Nokta</a>
+                                            <a href="" class="sub-menu-list-box">Lumberjack</a>
+                                            <a href="" class="sub-menu-list-box">Lotto</a>
+                                            <a href="" class="sub-menu-list-box">Kinetix</a>
+                                            <a href="" class="sub-menu-list-box">Reebok</a>
+                                            <a href="" class="sub-menu-list-box">Nike</a>
+                                            <a href="" class="sub-menu-list-box">adidas</a>
+                                            <a href="" class="sub-menu-list-box">Puma</a>
+                                            <a href="" class="sub-menu-list-box">New Balance</a>
+                                            <a href="" class="sub-menu-list-box">İnci</a>
+                                            <a href="" class="sub-menu-list-box">Garamond</a>
+                                            <a href="" class="sub-menu-list-box">Hummel</a>
+                                            <a href="" class="sub-menu-list-box">Slazenger</a>
+                                            <a href="" class="sub-menu-list-box">Proshot</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Tüm Kategoriler</span>
+                        </a>
+                        <div class="sub-menu1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-2  position-relative ">
+                                        <h6>Ayakkabı</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Ayakkabılar</a>
+                                                <a href="" class="sub-menu-list-item">Bot</a>
+                                                <a href="" class="sub-menu-list-item">Çizme</a>
+                                                <a href="" class="sub-menu-list-item">Outdoor Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Sneaker</a>
+                                                <a href="" class="sub-menu-list-item">Günlük Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Spor Ayakkabı</a>
+                                                <a href="" class="sub-menu-list-item">Koşu Ayakkabısı</a>
+                                                <a href="" class="sub-menu-list-item">Yürüyüş Ayakkabısı</a>
+                                            </div>     
+                                        </div>
+                                    </div>
+                                    <div class="col-2 position-relative ">
+                                        <h6>Giyim</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Giyim Ürünleri</a>
+                                                <a href="" class="sub-menu-list-item">Mont</a>
+                                                <a href="" class="sub-menu-list-item">Ceket</a>
+                                                <a href="" class="sub-menu-list-item">Yağmurluk</a>
+                                                <a href="" class="sub-menu-list-item">Polar</a>
+                                                <a href="" class="sub-menu-list-item">Yelek</a>
+                                                <a href="" class="sub-menu-list-item">T-Shirt</a>
+                                            </div>                                    
+                                        </div>
+                                    </div>
+                                    <div class="col-2 position-relative ">
+                                        <h6>Çanta</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Çantalar</a>
+                                                <a href="" class="sub-menu-list-item">Omuz Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Sırt Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Postacı Çantası</a>
+                                                <a href="" class="sub-menu-list-item">El Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Bel Çantası</a>
+                                                <a href="" class="sub-menu-list-item">Plaj Çantası</a>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="col-2 position-relative ">
+                                        <h6>Aksesuar</h6>
+                                        <div class="sub-menu-list-wrapper pt-2">
+                                            <div class="sub-menu-list">
+                                                <a href="" class="sub-menu-list-item">Tüm Aksesuar Ürünleri</a>
+                                                <a href="" class="sub-menu-list-item">Cüzdan</a>
+                                                <a href="" class="sub-menu-list-item">Şapka</a>
+                                                <a href="" class="sub-menu-list-item">Çorap</a>
+                                                <a href="" class="sub-menu-list-item">Saat</a>
+                                                <a href="" class="sub-menu-list-item">Güneş Gözlüğü</a>
+                                                <a href="" class="sub-menu-list-item">Şal</a>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <h6>Popüler Markalar</h6>
+                                        <div class="sub-menu-list-box-wrapper pt-2">
+                                            <a href="" class="sub-menu-list-box">Lumberjack</a>
+                                            <a href="" class="sub-menu-list-box">Polaris 5 Nokta</a>
+                                            <a href="" class="sub-menu-list-box">Lotto</a>
+                                            <a href="" class="sub-menu-list-box">Kinetix</a>
+                                            <a href="" class="sub-menu-list-box">Reebok</a>
+                                            <a href="" class="sub-menu-list-box">Nike</a>
+                                            <a href="" class="sub-menu-list-box">adidas</a>
+                                            <a href="" class="sub-menu-list-box">Puma</a>
+                                            <a href="" class="sub-menu-list-box">New Balance</a>
+                                            <a href="" class="sub-menu-list-box">İnci</a>
+                                            <a href="" class="sub-menu-list-box">Garamond</a>
+                                            <a href="" class="sub-menu-list-box">Hummel</a>
+                                            <a href="" class="sub-menu-list-box">Slazenger</a>
+                                            <a href="" class="sub-menu-list-box">Proshot</a>
+                                            <a href="" class="sub-menu-list-box">Butigo</a>
+                                            <a href="" class="sub-menu-list-box">Salvano</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_item">
+                        <a href="" class="py-4">
+                            <span>Sürdürülebilirlik</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAİN -->
+
+    <main>
+
+        <!-- SECTİON-1 -->
+
+        <section id="section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 p-3">
+                        <h3>FLO’yla Yeni Sezon Kombinini Tamamla</h3>
+                        <h6>Nereden alışveriş yapmak istiyorsun?</h6>
+                        <div class="selectGenderButtons mt-5 d-flex  gap-5">
+                            <button><strong>Kadın</strong></button>
+                            <button><strong>Erkek</strong></button>
+                            <button><strong>Çocuk</strong></button>   
+                        </div>
+                    </div>
+                    <div class="col-lg-7 innerRight">
+                        <div class="swiper mySwiper">     
+                            <div class="swiper-wrapper">    
+                                <div class="swiper-slide"><img src="img/first-slider-img-1.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/first-slider-img-2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="img/first-slider-img-3.png" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTİON-2 -->
+
+        <section id="section-2">
+            <div class="container">
+                <h3>Popüler Markalar</h3>
+                <div class="swiper mySwiper1 ">     
+                    <div class="swiper-wrapper myİmg">    
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/1-lumberjack.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/2-nike.jpg.webp"alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/3-adidas.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/4-puma-396x505.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="	https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/-396x505-1684156284.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="	https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/5-kinetix.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-07/10/ninewest-396x505.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/7-inci.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/8-us-polo.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/9-dockers.jpg.webp" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-05/15/10-polaris-396x505.jpg.webp" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTİON-3 -->
+
+        <section id="section-3">
+            <div class="container">
+                <h3>En Popüler Kategoriler</h3>
+                <div class="swiper mySwiper2 ">     
+                    <div class="swiper-wrapper myİmg">    
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-sneaker.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-ayakkabi.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-topuklu-ayakkabi.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-spor.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-rahat-ayakkabi.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-lisansli-1678702953.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-giyim.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="https://floimages.mncdn.com/media/catalog/product/img/banners/23-03/13/en-popu-ler-kategoriler-c-anta-1678702803.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-next1"></div>
+                    <div class="swiper-button-prev swiper-button-prev1"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+            <div class="footerContent">
+                <p>En Trend Ayakkabı ve Giyim Ürünleri FLO'da!</p>
+                <p>Ayakkabı , özenerek seçtiğiniz kıyafeti tamamlayan en güzel ve en dikkat çekici detay. Aslında bir ihtiyaçtan ziyade kendinizi şımartmanın en fonksiyonel yolu. Neden ihtiyacınız olan ayakkabının en güzeline ve en rahatına sahip olmayasınız ki! FLO, ayakkabı seçim sürecinizi kolaylaştıracak uygun fiyatlı ve kaliteli modelleriyle sizi bekliyor.</p>
+                <p>Doğru model ve renkte ayakkabı seçimiyle tüm gözlerin üzerinize çevrilmesini sağlayabilir ve girdiğiniz her ortamın yıldızı olabilirsiniz. FLO, ayakkabı seçiminizi kolaylaştıracak pek çok seçeneği sizlere sunarken kalite ve uygun fiyat politikasından asla taviz vermiyor. Böylece de sizin payınıza kalan tek şey kendinize en yakışan ayakkabı modelini bulmak ve FLO dünyasının avantajlarından faydalanmak oluyor. İster kadın ayakkabı isterse de erkek ayakkabı modelleri arasından kendinize ya da sevdiklerinize yakışan modeli bulabilirsiniz. Günlük ayakkabı modellerinin yanı sıra topuklu ayakkabı ve abiye ayakkabı gibi dikkat çekici parçalarla tarzınızı sağlamlaştırabilirsiniz. Hangi ayakkabıyı alacağınıza karar verirken farklı ayakkabı ve bot modellerini karşılaştırabilir, renk seçeneklerini inceleyebilirsiniz. Uygun fiyatlı ayakkabı modelleri arasından kendinize en yakışacağını düşündüğünüz ayakkabıyı farklı taksit ve indirim fırsatlarıyla satın almanın ayrıcalığını yaşayabilirsiniz.</p>
+                <p>Ayakkabı tercihlerinizde mevsimlerin önemini mutlaka hesaba katmalısınız. Her sezonun ayakkabılarının farklı materyallerle oluşturulmuş ve dizayn edilmiş olması gerektiğinin bilincinde olmalısınız. Kışın giydiğiniz bir ayakkabının yaz aylarına uygun olmayabileceğini ve ayak sağlığınızı olumsuz etkileyebileceğini hatırlatmakta fayda var. Kış aylarının vazgeçilmezi olan bot ve çizmelerden zevkinize uygun olanları alışveriş sepetinize ekleyip kışa hazırlıksız yakalanma riskini ortadan kaldırabilirsiniz. Kadın bot ve erkek bot seçenekleri arasından yeni sezonunun öne çıkan parçalarına göz atabilir ve ayakkabı dolabınızı eşsiz parçalarla doldurabilirsiniz. Özellikle Dockers bot modelleri toprak tonlarındaki renk skalasıyla ve dayanıklılığıyla dikkat çekiyor. Lumberjack botlar da uzun yıllardır yüksek kalitesini sürdürüyor ve kış aylarında ayağınızı yere sağlam basmanızı sağlıyor. Kinetix bot modelleri hem sportif ve aktif yaşamı seven hem de şıklığından taviz vermeyenlerin tercihi olarak vitrinleri süslüyor.</p>
+                <p>Yaz aylarının vazgeçilmezi de elbette ki FLO! En kaliteli materyallerle üretilmiş sandalet , terlik ve babet çeşitleri arasından zevkinize uygun olanını yazlık elbise ve şortlarınızla kombinleyebilir, yakıcı güneşin altında nefes aldıran FLO ürünleriyle yazın tadını çıkarabilirsiniz. Yaz aylarının en çok tercih edilen markaları Crocs ve Birkenstock da FLO’da yerlerini almış durumda. “Ben yazın da rahatlığımdan vazgeçmem” diyenlerdenseniz neşeli Crocs terliklerinden zevkinize en uygun rengi seçebilirsiniz. Crocs çocuk terlik modellerinin de çocuğunuz çok hoşuna gideceğinin altını çizmemizde fayda var. Birkenstock terlikler ise hem plajda hem de günlük hayatta rahatlıkla tercih edebileceğiniz konfora sahip. Lumberjack ayakkabılar ise her mevsime uygun modelleriyle yıllardır kaliteden vazgeçmeyenlerin aklına ilk gelen markalar arasında bulunuyor.</p>
+                <p>Hem yaz hem de kış aylarında yüksek kalitedeki Flo ürünlerine uygun fiyatlarla ulaşmanın keyfini sürebilirsiniz. 5 nokta teknolojisiyle üretilen Flo ayakkabıları sayesinde ayak sağlığınız konusunda endişe etmenize de gerek kalmıyor. Gün içerisindeki konforunuz düşünülerek üretilmiş olduğundan; ayakkabı, bot, çizme, sandalet ve terlik modelleriyle hem rahatlığı hem de şıklığı aynı anda yaşayabilirsiniz.</p>
+                <p>FLO mağazalarından ve internet sitesinden satın alacağınız ayakkabı, bot ya da terlik hangi marka olursa olsun yüksek kalitesiyle sizi büyüleyecek. Hayat kalitenizi artıracak rahatlıktaki seçeneklerden bir daha kolay kolay vazgeçemeyecek ve uygun fiyatlı alışverişin müdavimi olacaksınız.</p>
+                <p>En Çok Tercih Edilen Spor Ayakkabı Markaları FLO’da!</p>
+                <p>Nike , Adidas , Puma,Hummel,Reebokve Kinetix gibi dünyaca ünlü yerli ve yabancı markaların yeni sezon ve outlet spor ayakkabı seçeneklerini Flo’da bir arada bulabilirsiniz. Uzun yıllardır spor ayakkabı sektöründe liderliklerini koruyan markaların en çok satan modelleri FLO ayrıcalığıyla size ulaşıyor. Hem kadın spor ayakkabı hem de erkek spor ayakkabı seçenekleri arasında bulunan Nike spor ayakkabı modelleri sürekli yenilenen stoklarla sporseverlerle buluşuyor. Her zaman kendisini yenileyen ve fark yaratan markanın yeni sezon ve outlet ürünlerine FLO’da ayrıcalıklı fiyatlarla ulaşmak mümkün. Adidas spor ayakkabı modelleriyse, üç çizgili efsanevi markanın müdavimleri için her zaman FLO’da yerini koruyor. Günlük hayatta da rahatlıkla tercih edilebilecek spor ayakkabılar, tarz sahibi kişilere hitap ediyor. Puma spor ayakkabı modelleriyse, Puma rahatlığını daha önceden deneyimlemiş olan müşterilerinden tam not alıyor ve FLO internet sitesi ve mağazalarında en yeni modelleriyle sizleri bekliyor. Dünyanın en iyi markalarına uygun fiyat seçenekleriyle ulaşıp kendinizi şımartmak da size kalıyor.</p>
+                <p>Binlerce Spor Ayakkabı Seçeneği</p>
+                <p>Spor ayakkabı deyince akan sular duruyor. Konfor ve şıklığın bir araya geldiği spor ayakkabılar günlük hayatımızın vazgeçilmez parçaları arasında bulunuyor. Kadın spor ayakkabı seçenekleri arasından işe giderken giyebileceğiniz şık ama rahat modellere göz atabilirsiniz. Özellikle dantelli, simli ve dolgu topuklu spor ayakkabılar iş ortamında giymek için oldukça uygun. Spor ayakkabınızı, günlük hayat dışında spor aktivitelerinde kullanmayı planlıyorsanız renkli ve rahat modeller sizi bekliyor. Tenis ayakkabısı,koşu ayakkabısı, yürüyüş ayakkabısı,fitness ayakkabısı gibi pek çok seçenek FLO’nun geniş ürün yelpazesinde bulunuyor. Günlük hayatta aktif olmayı seven kadınlar için üretilmiş yüzlerce rahat spor ayakkabı çeşidine mutlaka göz atın.</p>
+                <p>Erkek spor ayakkabı kategorisi bir hayli geniş olan Flo’da; dünya çapındaki markaların ayakkabı seçeneklerine rahatlıkla ulaşabilirsiniz. Kadınlar için olduğu gibi erkekler için de günlük hayatın olmazsa olmazlarından biri spor ayakkabı. Şık erkek spor ayakkabılarını kot gibi günlük tercihlerle giyebileceğiniz gibi, kanvas pantolonlarla da tercih ederek iş hayatında da gönül rahatlığıyla giyebilirsiniz. Sportif bir erkekseniz en seçkin krampon ve erkek basketbol ayakkabısı seçeneklerinin yanı sıra erkek koşu ayakkabısı ve erkek yürüyüş ayakkabısı modellerini, konfor ve uygun fiyatı bir arada sunan FLO’da bulabilirsiniz. Nike krampon ve Adidaskrampon gibi en çok tercih edilen krampon seçeneklerine, FLO fırsat ve kampanyalarını takip ederek bütçenizi zorlamayacak fiyatlara sahip olabilirsiniz. Halı sahanın yıldızı olmak için harika bir başlangıç değil mi?</p>
+                <p>Giyim ve Aksesuar Deyince de FLO!</p>
+                <p>FLO’da elbette ki sadece ayakkabı çeşitleri yok. Çanta, valiz , cüzdan gibi ayakkabılarınızı tamamlayıcı ürünleri de FLO garantisiyle satın alabilir ve şıklığınıza şıklık katabilirsiniz. Spor ayakkabılarınızla kombinleyebileceğiniz tayt, eşofman , tişört gibi spor ürünlerini de FLO’da bulabilirsiniz. Hem yeni sezon hem de indirim ürünleri arasından farklı markaların tekstil ürünlerine kolaylıkla ulaşabilir ve zevkinize uygun spor giyim ürünlerini iade güvencesiyle satın alabilirsiniz.</p>
+                <p>FLO İade Şartları ve Kargo Fırsatı</p>
+                <p>Flo.com.tr’de yapacağınız alışverişlerinizi gönül rahatlığıyla gerçekleştirebilirsiniz. Aldığınız ayakkabının numarası ayağınıza uymadıysa ya da rengi içinize sinmediyse iade etmeniz çok kolay çünkü FLO müşterileri ürünlerini aldıktan sonra 30 gün içerisinde iade etme şansına sahipler. Kapıda nakit ödeme seçeneği de FLO’nun müşterilerine sunduğu bir başka olanak. Eğer ödemelerinizi kredi kartsız olarak kapıda gerçekleştirmeyi tercih ediyorsanız ödeme sayfasında bunu belirtmeniz yeterli olacaktır. Geriye kargonuzu birkaç gün beklemek ve yüksek kalitedeki siparişinizin keyfini sürmek kalıyor.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footerTop d-flex justify-content-between">
+                <div class="footerMain col-5">
+                    <p>Müşteri Hİzmetleri</p>
+                    <ul class="footerItems">
+                        <li><a class="footerItem" href="">Kolay İade</a></li>
+                        <li><a class="footerItem" href="">Kampanyalar</a></li>
+                        <li><a class="footerItem" href="">Sıkça Sorulan Sorular</a></li>
+                        <li><a class="footerItem" href="">Mağazalarımız</a></li>
+                        <li><a class="footerItem" href="">İade ve Değişim</a></li>
+                        <li><a class="footerItem" href="">Sipariş Takibi</a></li>
+                        <li><a class="footerItem" href="">Güvenli Alışveriş Kılavuzu</a></li>
+                        <li><a class="footerItem" href="">İşlem Rehberi</a></li>
+                        <li><a class="footerItem" href="">Tıkla Gel Al</a></li>
+                        <li><a class="footerItem" href="">Kişisel Verilerin Korunması</a></li>
+                        <li><a class="footerItem" href="">Ayakkabı Bakım Rehberi</a></li>
+                        <li><a class="footerItem" href="">Kurumsal</a></li>
+                        <li><a class="footerItem" href="">Flotomic</a></li>
+                        <li><a class="footerItem" href="">İnsan Kaynakları</a></li>
+                        <li><a class="footerItem" href="">Blog</a></li>
+                        <li><a class="footerItem" href="">İletişim</a></li>
+                        <li><a class="footerItem" href="">Mobil Uygulamalar</a></li>
+                    </ul>
+                    <div class="applicationLinks">
+                        <a href=""><img src="https://www.flo.com.tr/pub/assets/flo-v2/images/google_play.svg" alt=""></a>
+                        <a href="" class="ms-2"><img src="https://www.flo.com.tr/pub/assets/flo-v2/images/app_store.svg" alt=""></a>
+                        <a href="" class="ms-2"><img src="https://www.flo.com.tr/pub/assets/flo-v2/images/app_gallery.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="footerSocial col-2">
+                    <p>Takip Edin</p>
+                    <ul class="socialItems">
+                        <li>
+                            <a href="">
+                                <img src="img/footer-facebook-icon.jpeg" alt="">
+                                <span>Flo Facebook</span>
+                            </a>   
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/footer-x-icon.jpeg" alt="">
+                                <span>Flo X</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/footer-pinterest-icon.jpeg" alt="">
+                                <span>Flo Pinterest</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/footer-instagram-icon.jpeg" alt="">
+                                <span>Flo Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/footer-youtube-icon.jpeg" alt="">
+                                <span>Flo Youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footerInformation col-5">
+                    <div class="informationBox">
+                        <div class="informationBoxIcon">
+                            <img src="img/store-icon.png" alt="">
+                        </div>
+                        <div class="informationBoxText">
+                            <h6>FLO Pazaryeri</h6>
+                            <p>Binlerce ürün yelpazemizle, müşterilerimize rekabetçi ve uygun fiyatlar sunuyoruz.</p>
+                        </div>
+                    </div>
+                    <div class="informationBox">
+                        <div class="informationBoxIcon">
+                            <img src="img/return-icon.png" alt="">
+                        </div>
+                        <div class="informationBoxText">
+                            <h6>Kolay İade</h6>
+                            <p>flo.com.tr’den almış olduğunuz ve hiç kullanmadığınız ürünleri iade süresi içinde iade edebilirsiniz.</p>
+                        </div>
+                    </div>
+                    <div class="informationBox">
+                        <div class="informationBoxIcon">
+                            <img src="img/truck-icon.png" alt="">
+                        </div>
+                        <div class="informationBoxText">
+                            <h6>Kargo Bedava</h6>
+                            <p>FLO satıcısına özel 1000 TL ve üzeri alışverişlerinizde ve satıcılarımızın farklı sepet tutarlarına göre KARGO BEDAVA.</p>
+                        </div>
+                    </div>
+                    <div class="informationBox">
+                        <div class="informationBoxIcon">
+                            <img src="img/message-icon.png" alt="">
+                        </div>
+                        <div class="informationBoxText">
+                            <h6>Yardım Merkezi</h6>
+                            <p>Müşteri hizmetlerimiz çağrılarınıza haftanın 7 günü 09:00 - 22:00 saatleri arasında hizmet vermektedir.</p>
+                        </div>
+                    </div>
+                    <div class="informationBox">
+                        <div class="informationBoxIcon">
+                            <img src="img/installment-icon.png" alt="">
+                        </div>
+                        <div class="informationBoxText">
+                            <h6>6 Taksit Seçeneği</h6>
+                            <p>Yapacağınız tüm alışverişlerde Kredi Kartlarına 6 taksit avantajı.</p>
+                        </div>
+                    </div>
+                    <div class="informationBox">
+                        <div class="informationBoxIcon">
+                            <img src="img/locked-icon.png" alt="">
+                        </div>
+                        <div class="informationBoxText">
+                            <h6>Güvenli Alışveriş</h6>
+                            <p>Dünyanın en popüler ve güvenilir yöntemiyle ödeme yapın.</p>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="extra">
+                            <a href="">
+                                <img class="trGo" src="https://www.guvendamgasi.org.tr/public/images/logo.png" alt="">
+                            </a>
+                            <a href="">
+                                <img class="qrCode" src="https://www.flo.com.tr/pub/assets/common/images/etbis.jpeg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <div class="container-fluid myBottom">
+                    <h5>6 Aya Varan Taksit Seçenekleri</h5>
+                </div>
+                <div class="footerCreditCards">
+                    <img class="imageDiv" src="https://www.flo.com.tr/pub/assets/flo-v2/images/footer-bankcard.png" alt="">
+                    <img class="imageDiv2" src="https://www.flo.com.tr/pub/assets/flo-v2/images/footer-payment_2.png" alt="">
+                </div>
+                <div class="copyright">
+                    <h6>© 2024 FLO.COM.TR. TÜM HAKLARI SAKLIDIR.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- BOOTSTRAP SCRİPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Js -->
+    <script src="anasayfa.js"></script>
+</body>
+</html>
